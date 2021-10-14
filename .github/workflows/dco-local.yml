@@ -1,4 +1,4 @@
-name: DCO Check
+name: DCO Check Locally
 
 on: [pull_request]
 
@@ -6,4 +6,5 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - uses: ./

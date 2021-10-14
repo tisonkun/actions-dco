@@ -13,6 +13,5 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
       - uses: ziggurat-project/actions-dco@v1.0
 ```

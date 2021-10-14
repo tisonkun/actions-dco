@@ -1,4 +1,4 @@
-name: DCO Check
+name: DCO Check Locally
 
 on: [pull_request]
 

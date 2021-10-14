@@ -8480,7 +8480,7 @@ var __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 /**
- * Copyright 2021 ziggurat-project/actions-doc contributors
+ * Copyright 2021 ziggurat-project/actions-dco contributors
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.

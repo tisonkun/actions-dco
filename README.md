@@ -1,2 +1,18 @@
-# actions-dco
-GitHub Actions that enforces the Developer Certificate of Origin (DCO) on Pull Requests
+# Actions DCO
+
+GitHub Actions that enforces the Developer Certificate of Origin (DCO) on Pull Requests.
+
+## Example usage
+
+```yml
+name: DCO Check
+
+on: [pull_request]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ziggurat-project/actions-dco@v1.0
+```

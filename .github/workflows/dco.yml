@@ -12,12 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-name: DCO Check Remotely
+name: DCO Check
 
 on: [pull_request]
 
 jobs:
-  check:
+  local:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./
+  
+  remote:
     runs-on: ubuntu-latest
     steps:
       - uses: ziggurat-project/actions-dco@v1.0

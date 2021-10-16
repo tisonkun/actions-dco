@@ -14,7 +14,9 @@
 
 name: Check
 
-on: [push, pull_request]
+on:
+  push: [main]
+  pull_request:
 
 jobs:
   ci:

@@ -16,7 +16,7 @@ name: Check
 
 on:
   push: [main]
-  pull_request: [*]
+  pull_request: ['*']
 
 jobs:
   ci:

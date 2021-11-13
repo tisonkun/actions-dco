@@ -10,15 +10,15 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ziggurat-project/actions-dco.git"
+        "url": "git+https://github.com/tisonkun/actions-dco.git"
     },
     "keywords": [],
     "author": "",
     "license": "Apache-2.0",
     "bugs": {
-        "url": "https://github.com/ziggurat-project/actions-dco/issues"
+        "url": "https://github.com/tisonkun/actions-dco/issues"
     },
-    "homepage": "https://github.com/ziggurat-project/actions-dco#readme",
+    "homepage": "https://github.com/tisonkun/actions-dco#readme",
     "dependencies": {
         "@actions/core": "^1.5.0",
         "@actions/github": "^5.0.0",

@@ -13,5 +13,5 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - uses: tisonkun/actions-dco@v1.0
+      - uses: tisonkun/actions-dco@v1.1
 ```
